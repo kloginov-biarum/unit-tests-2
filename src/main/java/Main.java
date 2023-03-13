@@ -1,7 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        Sum sum = new Sum();
-        System.out.println(sum.sumOfTwoNumbers(3,4));
+       Tree tree = new Tree();
+       int [] arr = {1,4,2,3,5};
+       System.out.println(tree.getLength(arr));
     }
 }
